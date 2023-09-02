@@ -13,6 +13,8 @@
 		CA50D86A2AA3123500F226B2 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA50D8692AA3123500F226B2 /* ImmersiveView.swift */; };
 		CA50D86C2AA3123700F226B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA50D86B2AA3123700F226B2 /* Assets.xcassets */; };
 		CA50D86F2AA3123700F226B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA50D86E2AA3123700F226B2 /* Preview Assets.xcassets */; };
+		CA50D8772AA3165600F226B2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA50D8762AA3165600F226B2 /* ViewModel.swift */; };
+		CA50D8792AA31AA900F226B2 /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CA50D8782AA31AA900F226B2 /* gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA50D86B2AA3123700F226B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA50D86E2AA3123700F226B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA50D8702AA3123700F226B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA50D8762AA3165600F226B2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CA50D8782AA31AA900F226B2 /* gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gitignore; path = ../../Downloads/gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		CA50D8552AA3123500F226B2 = {
 			isa = PBXGroup;
 			children = (
+				CA50D8782AA31AA900F226B2 /* gitignore */,
 				CA50D8602AA3123500F226B2 /* WallArt_VisionProTutorial */,
 				CA50D8612AA3123500F226B2 /* Packages */,
 				CA50D85F2AA3123500F226B2 /* Products */,
@@ -64,6 +69,7 @@
 				CA50D86B2AA3123700F226B2 /* Assets.xcassets */,
 				CA50D8702AA3123700F226B2 /* Info.plist */,
 				CA50D86D2AA3123700F226B2 /* Preview Content */,
+				CA50D8762AA3165600F226B2 /* ViewModel.swift */,
 			);
 			path = WallArt_VisionProTutorial;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA50D86F2AA3123700F226B2 /* Preview Assets.xcassets in Resources */,
+				CA50D8792AA31AA900F226B2 /* gitignore in Resources */,
 				CA50D86C2AA3123700F226B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +166,7 @@
 			files = (
 				CA50D8682AA3123500F226B2 /* ContentView.swift in Sources */,
 				CA50D8662AA3123500F226B2 /* WallArt_VisionProTutorialApp.swift in Sources */,
+				CA50D8772AA3165600F226B2 /* ViewModel.swift in Sources */,
 				CA50D86A2AA3123500F226B2 /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
